@@ -17,7 +17,6 @@
   setTimeout(() => {
     window.scrollTo(0, screen.height + 700);
   }, delay);
-
   function dodeting(subjectCode) {
     console.log('lagi ngeliat',subjectCode);
     const matkul = $(`input[subjectcode='${subjectCode}']`);
@@ -50,7 +49,8 @@
     }
   }
   setTimeout(() => {
-    var lookupmk = ["CSH4X3","CSH4G3","CSH4F3"]; // masukan mk yg anda mau disini
+    console.log('mulai');
+    var lookupmk = ["CSH4X3","CSH4G3","CSH4H3","CSH4113"]; // masukan mk yg anda mau disini
     lookupmk.forEach(dodeting);
     location.reload();
   }, delay);
